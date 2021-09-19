@@ -1,0 +1,137 @@
+:root {
+    --light-blue:rgb(29, 160, 153);
+    --dark-grey: rgb(23, 40, 58);
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background: white;
+}
+
+body {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    background: var(--dark-grey);
+    padding: 20px;
+    
+}
+
+.header1 h1 {
+    display: flex;
+    justify-content: flex-end;
+    background: var(--light-blue);
+    color: var(--dark-grey);
+    font-size: 300%;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+a {
+    font-size: 175%;
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+
+.header2 {
+    display: flex;
+    background-image: url("https://cdn.wallpapersafari.com/61/75/Ymx59h.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.header2 h2 {
+    display: flex;
+    justify-content: flex-end;
+    background: var(--light-blue);
+    color: var(--dark-grey);
+    text-align: right;
+    font-size: 175%;
+}
+
+.about-me {
+    display: flex;
+    padding: 5%;
+}
+
+.about-me aside {
+    display: flex;
+    float: left;
+    padding: 10%;
+    font-size: 300%;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.work aside {
+    display: flex;
+    float: left;
+    padding: 10%;
+    font-size: 300%;
+}
+
+.big-placeholder img {
+    display: flex;
+    width: 50%;
+}
+
+.big-placeholder h3 {
+    display: flex;
+    background: var(--light-blue);
+}
+
+.placeholder img {
+    display: flex;
+    width: 50%;
+}
+
+.placeholder h3 {
+    display: flex;
+    background: var(--light-blue);
+}
+
+.contact-me {
+    display: flex;
+    padding: 5%;
+}
+
+.contact-me aside {
+    display: flex;
+    float: left;
+    padding: 10%;
+    font-size: 300%;
+}
+
+.contact-me ul li {
+    display: flex;
+    justify-content: space-between;
+    display: inline;
+}
+
+.contact-me a {
+    font size: 175%;
+    color: var(--dark-grey);
+    text-decoration: underline;
+}
