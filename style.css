@@ -4,54 +4,49 @@
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    background: white;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
+   margin: 0;
+    background: rgb(212, 209, 209);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+/*main header*/
 .header1 {
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    height: 80px;
     background: var(--dark-grey);
-    align-items: center;
-    padding:1%;
-    padding-left: 0;
-    margin-left: 0px;
 }
 
 .header1 h1 {
+    position: absolute;
+    top: 15%;
+    display: inline;
     background: var(--light-blue);
     color: var(--dark-grey);
-    font-size: 300%;
-    padding-left: 20px;
-    margin-left: 0px;
-
+    padding: 10px;
+    font-size: 200%;
 }
-
-
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-   
+/*navbar*/
+nav {
+    position: absolute;
+    background: var(--dark-grey);
+    top: 35%;
+    right: 5%; 
 }
 
 nav a {
     background: var(--dark-grey);
-    font-size: 175%;
     color: var(--light-blue);
     text-decoration: underline; 
+    margin: 3px;
+    padding: 1px 6px;
+    font-size: 125%;
 }
-
+/*sub-header*/
 .header2 {
-    display: flex;
+    position: relative;
     background-image: url("https://cdn.wallpapersafari.com/61/75/Ymx59h.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,82 +54,144 @@ nav a {
 }
 
 .header2 h2 {
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
     background: var(--light-blue);
     color: var(--dark-grey);
+    font-size: 175%;
+    padding: 5px 10px;
+}
+/*main body*/
+main {
+    padding:20px 4vw;
+}
+
+.main-section {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.title {
+    min-width: 15%;
+    padding: 20px;
     text-align: right;
+    color: var(--dark-grey);
     font-size: 175%;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-.about-me {
-    display: flex;
-    padding: 5%;
-}
-
-.about-me aside {
-    display: flex;
-    float: left;
-    padding: 10%;
-    font-size: 300%;
-}
-
-.work {
+.content {
     display: flex;
     flex-wrap: wrap;
-    padding: 5%;
+    border-left: 3px solid var(--dark-grey);
+    padding: 30px 7.5% 30px 30px;
+    width: 80vw;
+}
+/*About Me Section*/
+#about-me-p {
+    color: var(--dark-grey);
+    flex-direction: column;
+    line-height: 1.5;
+}
+/*Work Section*/
+.placeholder {
+    position:relative;
+    height: 15vw;
+    width: 48%;
+    margin: 1%;
+    border: 3px solid var(--light-blue);
+    box-sizing: border-box;
+    cursor: pointer;
+    user-select: none;
 }
 
-.work aside {
-    display: flex;
-    float: left;
-    padding: 10%;
-    font-size: 300%;
-}
-
-.big-placeholder img {
-    display: flex;
-    width: 50%;
-}
-
-.big-placeholder h3 {
-    display: flex;
-    background: var(--light-blue);
+#big-placeholder {
+    width: 100%;
+    height: 20vw;
 }
 
 .placeholder img {
-    display: flex;
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
 }
 
-.placeholder h3 {
-    display: flex;
+.placeholder:hover img {
+    opacity: 1;
+}
+
+.label {
+    color: var(--dark-grey);
+    position: absolute;
+    bottom: 1vw;
+    background: var(--light-blue);
+    padding: 1vw;
+    font-size: 100%;
+}
+.label h3 {
+    font-size: 150%;
     background: var(--light-blue);
 }
-
-.contact-me {
-    display: flex;
-    padding: 5%;
+.label p {
+    background: var(--light-blue);
 }
-
-.contact-me aside {
-    display: flex;
-    float: left;
-    padding: 10%;
-    font-size: 300%;
+/*Contact Me Seciton*/
+#contact-links {
+    justify-content: space-around;
+    align-items: center;
 }
-
-.contact-me ul li {
-    display: flex;
-    justify-content: space-between;
-    display: inline;
-}
-
-.contact-me a {
-    font size: 175%;
+#contact-links a {
+    font-weight: bold;
     color: var(--dark-grey);
-    text-decoration: underline;
+    padding: 1px 6px;
+    border-bottom: 2px solid var(--dark-grey);
+}
+/*------------SCREEN SIZE ADJUSTMENTS------------*/
+@media screen and (max-width: 880px) {
+
+
+    /*------------HEADER------------*/
+    /*TOPNAV*/
+    .header1 {
+        text-align: center;
+        height: 110px;
+    }
+
+    .header1 h1 {
+        position: relative;
+        padding: 5px 10px;
+    }
+
+    nav {
+        position: relative;
+        right: auto;
+    }
+
+    nav a {
+        margin: 3px;
+        padding: 1px 6px;
+        color: var(--light-blue);
+    }
+
+    /*------------MAIN SECTION------------*/
+    .main-section {
+        display: block;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .content {
+        border-left: none;
+        border-top: 3px solid var(--dark-grey);
+        padding: 30px;
+    }
+
+    /*CONTACT ME*/
+    #contact-links a {
+        margin: 5px;
+    }
+
+    
 }
