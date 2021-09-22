@@ -1,6 +1,6 @@
 My_Portfolio
 
-I created a webpage from scratch that includes an html document, a reset css file, and a linked css stylesheet. This webpage is a portfolio including some information about me and contact information that I will be able to link future work to. There are a few elements on the page that don't change with the screen size adjustments perfectly, but hopefully I will be able to come back and rework these in the future. 
+I created a webpage from scratch that includes an html document, a reset css file, and a linked css stylesheet. This webpage is a portfolio including some information about me and contact information that I will be able to link future work to. 
 
 Screenshots: ![Screen Shot 2021-09-20 at 9 10 01 PM](https://user-images.githubusercontent.com/90110594/134101672-19560155-d493-416a-8e04-a31807c97034.png)
 
