@@ -79,7 +79,7 @@ main {
     color: var(--dark-grey);
     font-size: 175%;
 }
-
+/*The box holding all the content for each section*/
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -146,12 +146,11 @@ main {
     padding: 1px 6px;
     border-bottom: 2px solid var(--dark-grey);
 }
-/*------------SCREEN SIZE ADJUSTMENTS------------*/
+/*Fit to Different Screen Sizes*/
 @media screen and (max-width: 880px) {
 
 
-    /*------------HEADER------------*/
-    /*TOPNAV*/
+    /*Header1*/
     .header1 {
         text-align: center;
         height: 110px;
@@ -172,8 +171,13 @@ main {
         padding: 1px 6px;
         color: var(--light-blue);
     }
-
-    /*------------MAIN SECTION------------*/
+    /*Header2*/
+    .header2 h2 {
+        font-size: 150%;
+        bottom: 5px;
+        right: 2%;
+    }
+    /*Main*/
     .main-section {
         display: block;
     }
@@ -187,8 +191,10 @@ main {
         border-top: 3px solid var(--dark-grey);
         padding: 30px;
     }
-
-    /*CONTACT ME*/
+    .label {
+        font-size: 50%;
+    }
+    /*Contact Link Spacing*/
     #contact-links a {
         margin: 5px;
     }
