@@ -1,15 +1,13 @@
-My_Portfolio
+My Portfolio
 
-I created a webpage from scratch that includes an html document, a reset css file, and a linked css stylesheet. This webpage is a portfolio including some information about me and contact information that I will be able to link future work to. 
+I created a webpage from scratch that includes an html document, a reset css file, and a linked css stylesheet. This webpage is a portfolio including some information about me, links to deployed projects, and contact information.
 
-Screenshots: ![Screen Shot 2021-09-20 at 9 10 01 PM](https://user-images.githubusercontent.com/90110594/134101672-19560155-d493-416a-8e04-a31807c97034.png)
+Screenshots: 
+<img width="1439" alt="Screen Shot 2021-10-10 at 8 48 07 PM" src="https://user-images.githubusercontent.com/90110594/136722237-601c5560-5456-4aaa-afb0-7bcf5e098c92.png">
 
-<img width="1440" alt="Screen Shot 2021-09-21 at 6 39 14 PM" src="https://user-images.githubusercontent.com/90110594/134261568-b4bde306-2b63-462e-bcec-efbbf8ef71f7.png">
+<img width="1435" alt="Screen Shot 2021-10-10 at 8 48 18 PM" src="https://user-images.githubusercontent.com/90110594/136722249-8f949702-7bd2-427a-994d-678b37a2e851.png">
 
-<img width="1440" alt="Screen Shot 2021-09-21 at 6 39 31 PM" src="https://user-images.githubusercontent.com/90110594/134261579-482a49c2-3d01-4b1c-a594-cc971ab12333.png">
-
-
-
+<img width="498" alt="Screen Shot 2021-10-10 at 8 48 41 PM" src="https://user-images.githubusercontent.com/90110594/136722252-922bc8de-2f8f-4440-ae1a-8f33b2f9f01c.png">
 
 Link to deployed application: <a href="https://samibyers.github.io/my_portfolio/" target="_blank">My Portfolio</a>
 
